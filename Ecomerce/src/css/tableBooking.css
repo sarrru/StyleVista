@@ -1,0 +1,131 @@
+.reserve-table{
+    background-image: url("src/images/reserv_bg.jpg");
+    background-color: rgba(0,0,0,.52);
+    width: 100vw;
+    height: 140vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.wrapper10{
+    position: absolute;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    min-width: 600px;
+    background-color:#FFFAF6;
+    margin-left: 25.5%;
+    margin-right: 15%;
+    margin-top:0px;
+    height: 98%;
+    width: 50%;
+}
+
+.reserv-text{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reserv-text h2{
+    font-family: "Alex Brush";
+    text-transform: initial;
+    font-size: 3vw;
+    color: #a97959;
+    margin-top: 10px;
+    text-shadow: 3px 3px 5px rgba(128, 38, 0, 0.73);
+}
+.reserv-text h1{
+    font-family: "Bebas Neue";
+    font-size: 6.5vw;
+    letter-spacing: 9px;
+    margin-top: -4rem;
+    text-shadow: 3px 3px 5px rgba(52, 52, 51, 0.57);
+}
+
+.table1photo, .table2photo, .table3photo, .table4photo, .table5photo, .table6photo, .table7photo, .table8photo, .table9photo{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -60px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 70px;
+
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 70px;
+}
+
+
+h5{
+    margin-top: -5px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+h6{
+    margin-top: 6px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.book-button{
+    margin-top: 6px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 84px;
+    height: 33px;
+    position: absolute;
+    margin-left: 16px;
+    background-color: #8d6c24;
+}
+
+.back-button:hover{
+    color: black;
+    box-shadow: none;
+}
+
+.status .scroll .available{
+    color:green;
+}
+
+.booked{
+    color:red;
+}
+
+.scroll{
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 14px;
+}
+

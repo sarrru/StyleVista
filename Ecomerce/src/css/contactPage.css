@@ -1,0 +1,129 @@
+
+
+.contact-page-div{
+    background: #faf7f2;
+    width: 100%;
+    height: 215vh;
+    overflow-x: hidden;
+}
+
+.get-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.get-container h2{
+    font-family: "Gilroy Bold";
+    font-size: 2.7rem;
+    /*text-shadow: 3px 3px 5px rgba(128, 38, 0, 0.73);*/
+    color: #443f3f;
+}
+.get-container b{
+    color: palevioletred;
+}
+.contact-main-content{
+    /*background: #888888;*/
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    justify-content:center;
+}
+.contact-location-opening-info{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px;
+    margin: 20px 40px;
+    width: 40vw;
+    height: 68vh;
+    box-shadow: 5px 5px 10px -1px rgba(10,99,169,0.16);
+}
+
+.contact-location-opening-info h2{
+    font-size: 1.9vw;
+    margin-bottom: 20px;
+}
+.email-phone-content{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-bottom: 1px solid #918886;
+}
+.email-phone-content h4{
+    color: #817373;
+    padding-bottom: 15px;
+}
+.email-phone-content h5{
+    color: palevioletred;
+    font-size: 1.1vw;
+}
+.email-phone-content h6{
+    font-size: 0.8rem;
+    font-family: Afacad;
+    color: rgba(0, 0, 0, 0.76);
+}
+.day-content {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-bottom: 1px solid #918886;
+}
+.day-content h4{
+    color: #817373;
+    padding-bottom: 15px;
+}
+.day-content h5{
+    font-size: 1.1vw;
+}
+
+.Rating{
+    margin-top: 60px;
+    margin-left: 100px;
+
+
+}
+
+.feast-map{
+    background-color: white;
+    margin: 33px;
+    height: 70vh;
+    /*padding: 40px;*/
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border-color: transparent;
+}
+.line1{
+    width: 94vw;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    border-bottom: 0.3px solid #1a150a;
+}
+
+.line2{
+    width: 94vw;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-bottom: 0.3px solid #1a150a;
+}
+
+.copyright-text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.copyright-text h5{
+    font-size: 1.2vw;
+    font-family: Afacad;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #000000bb;
+ }
+

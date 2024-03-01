@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background: rgba(0, 0, 0, 0.72);
+    color: white;
+}
+body, html {
+    overflow-x: hidden;
+}
+
+.home-page{
+    background-image: url("../images/front.jpg");
+    width: 100vw;
+    /*height: 100%;*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.hp-first-div{
+    width: 100vw;
+    /*background-color: rgba(0,0,0, 0.52);*/
+    overflow-x: hidden;
+}
+.hp-second-div{
+    width: 100vw;
+    /*background: #faf7f2;*/
+    padding-bottom: 5vh;
+}
+
+.hp-main-container{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #312e2e;*/
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    height:40vh;
+    z-index: 99;
+}
+
+.Ecommerce-slogan{
+    font-family: Alex Brush;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-bottom: -0.9rem;
+}
+/*.feast-slogan h1{*/
+/*    font-weight: 800;*/
+/*    color: white;*/
+/*}*/
+.hp-search-wrapper{
+    border: 2px solid palevioletred;
+    border-radius: 30px;
+    background-color: #c091a3;
+    height: 7vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+.hp-search-wrapper span{
+    display: inline-block;
+    padding: 0.2rem 15px 0 0.3rem;
+    font-size: 1.5vw;
+    background-color: #ffffff;
+    color:black;
+    margin-left: -1.72rem;
+}  .hp-search-wrapper span:hover{
+       cursor: pointer;
+   }
+.hp-search-wrapper input{
+
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: "Gilroy Regular";
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.home-search-div{
+    padding-left: 6vw;
+    display: flex;
+    justify-content: center;
+    background-color: #faf7f2;
+}
+.recommended-text{
+    display: flex;
+    padding-left: 2vw;
+    align-items: center;
+    font-family: "Alex Brush";
+    color: #eae5e5;
+    text-decoration: underline;
+    /*background-color: #f3ad16;*/
+}
+.recommendation-div h2{
+    /*background-color: #f3ad16;*/
+    font-size: 3rem;
+}
+.view-more-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 14vh;
+}
+
+.hp-search-wrapper {
+    border: 2px solid palevioletred;
+    border-radius: 30px;
+    background-color: white;
+     /*height: 7vh;*/
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+

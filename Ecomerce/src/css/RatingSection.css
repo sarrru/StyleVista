@@ -1,0 +1,38 @@
+.rating {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    min-width: 600px;
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-top: 30px;
+    height: 88%;
+    width: 50%;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30%;
+}
+
+.stars {
+    position:absolute;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 200px;
+    margin-left: 650px;
+}
+
+.star {
+    color: #95a5a6;
+    transition: color 0.2s;
+    font-size: 50px;
+}
+
+.star:hover, .star.active {
+    color: #fd0065;
+}

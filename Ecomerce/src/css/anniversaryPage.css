@@ -1,0 +1,66 @@
+
+.anniversary-page-div{
+    background-color: #faf7f2;
+    overflow-x: hidden;
+    height: 101vh;
+}
+
+.anniversary-main-container{
+    margin: 3rem 2.3rem 0 2.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.anniversary-text-div{
+    display: block;
+    color: #443f3f;
+    font-family: "Gilroy Bold";
+    font-size: 1.5rem;
+    margin: 1rem 0 0 2rem;
+}
+.anniversary-text-div b{
+    color: #f3ad16;
+}
+.anniversary-cards{
+    width: 27vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 20px 30px 20px;
+    font-family: "Gilroy SemiBold";
+    letter-spacing: 0.2px;
+    color: #252323;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.anniversary-cards:hover{
+    /*cursor: pointer;*/
+    border-radius: 14px;
+    background: #efefef;
+    box-shadow:  22px 22px 51px #b8b8b8,
+    -22px -22px 51px #ffffff;
+}
+.anniversary-cards p{
+    margin: 20px 5px 40px 5px;
+}
+.cards-price-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+}
+.cards-price-btn button{
+    color: #312e2e;
+    width: 8vw;
+    height: 3.5vw;
+    font-size: 1.2rem;
+    margin-top: -0.4rem;
+    background-color: rgba(232, 232, 232, 0.55);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3px;
+}
+.cards-price-btn button:hover{
+    background: #aaa;
+    color: #5b4108;
+    box-shadow: 5px 5px 10px -1px rgba(10,99,169,0.16);
+}

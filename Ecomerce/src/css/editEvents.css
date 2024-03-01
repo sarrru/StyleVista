@@ -1,0 +1,56 @@
+.edit-event-modal-content{
+    position: absolute; top: 45%; left: 55%; transform: translate(-50%, -50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    line-height: 1.4;
+    background: #e7e7e7;
+    padding: 14px 28px; border-radius: 10px;
+    font-size: 1.1rem;
+    width: 35vw;   height: 70vh;
+    z-index: 109;
+    text-decoration: underline;
+}
+.edit-event-modal-content input{
+    padding-left: 0.8rem;
+    border-color: #281e07; border-radius: 7px;
+    height: 5.7vh;
+    font-size: 0.9rem;
+}
+
+.event-type-id label{
+    position: absolute;
+    top: 4rem;
+    font-size: 1.5rem;
+}
+.event-name-box{
+    position: absolute;  top: 7rem;
+    font-size: 1.5rem;
+}
+.event-name-box input{
+    width: 30vw;
+    margin-top: 10px;
+}
+.event-name-box label,.event-name-box input{
+    display: block;
+}
+.edit-event-image-price{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    position: absolute;
+    top: 12rem;
+}
+.edit-event-image-price input{
+    width: 13.5vw;
+}
+.edit-description-box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 18rem;
+}
+.edit-description-box label{
+    font-size: 1.5rem;
+}
+.edit-description-box input{
+    width: 30vw;
+}
